@@ -1,10 +1,10 @@
 # Foundations for Web Development - Final Capstone (Simon Says)
 
-You've been hired as an intern at *Thinkful Game Studio*, which has decided to create a game, *Simon Says*. You will be applying all the HTML, CSS, and JavaScript skills you've learned in this course to help them build this game.
+You've been hired as an intern at _Thinkful Game Studio_, which has decided to create a game, _Simon Says_. You will be applying all the HTML, CSS, and JavaScript skills you've learned in this course to help them build this game.
 
-*Simon Says* is a game that displays a series of tones and lights in random order and requires a player repeat the sequence from memory. The game typically displays four colored pads. Each pad produces a particular tone when it is pressed. The tone helps the player in remembering the sequence. With each additional round, the number of pads in the sequence increases by one. Once the player makes a mistake, the game ends and resets.
+_Simon Says_ is a game that displays a series of tones and lights in random order and requires a player repeat the sequence from memory. The game typically displays four colored pads. Each pad produces a particular tone when it is pressed. The tone helps the player in remembering the sequence. With each additional round, the number of pads in the sequence increases by one. Once the player makes a mistake, the game ends and resets.
 
-You will build a web-based *Simon Says* game that you can play solo. The game designers have provided the source code that needs to be completed. You are encouraged to come up with an original visual design for this game or even change the theme. 
+You will build a web-based _Simon Says_ game that you can play solo. The game designers have provided the source code that needs to be completed. You are encouraged to come up with an original visual design for this game or even change the theme.
 
 ![Simon Says](./assets/simon-says.gif)
 
@@ -18,13 +18,13 @@ To complete this project, you must do the following:
 
 ## Installation
 
-First, fork and clone the [starter code](https://github.com/Thinkful-Ed/js-dev-final-capstone-starter-simon-says) to your local machine. If you need a refresher on how to fork and clone a project, feel free to reference the *Forking and Cloning* lesson in the *Git & Github* module.
+First, fork and clone the [starter code](https://github.com/Thinkful-Ed/js-dev-final-capstone-starter-simon-says) to your local machine. If you need a refresher on how to fork and clone a project, feel free to reference the _Forking and Cloning_ lesson in the _Git & Github_ module.
 
 From your terminal, navigate to the project directory.
 
-Then open the project folder with the VSCode editor, and open the `index.html` file with VSCode Live Server. If you need a refresher on how to use VSCode, feel free to reference the *Visual Studio Code* lesson in the *Developer Workflow* module.
+Then open the project folder with the VSCode editor, and open the `index.html` file with VSCode Live Server. If you need a refresher on how to use VSCode, feel free to reference the _Visual Studio Code_ lesson in the _Developer Workflow_ module.
 
-In the root of your project, run `npm install` to install the project dependencies. 
+In the root of your project, run `npm install` to install the project dependencies.
 
 Test are split up by user story. You can run the tests for a given user story by running:
 
@@ -33,7 +33,7 @@ Test are split up by user story. You can run the tests for a given user story by
 Have a look at the following examples:
 
 - `npm test` runs all the tests across all user stories
-- `npm run test:1` runs all the tests for user story 1 
+- `npm run test:1` runs all the tests for user story 1
 - `npm run test:2` runs all the tests for user story 2
 - `npm run test:3` runs all the tests for user story 3
 - `npm run test:4` runs all the tests for user story 4
@@ -41,23 +41,22 @@ Have a look at the following examples:
 
 **Note:** You can use the tests as a guide during the implementation of the game but they do **not** have to all pass before you can submit your work, as long as your project meets the general requirements specified in the project rubric.
 
-When you're ready, remember that you will need to submit a Github link of your project to the Thinkful team. 
+When you're ready, remember that you will need to submit a Github link of your project to the Thinkful team.
 
 # Existing Files
 
-|Folder/file path	|Description|
-|------|-----|
-| `index.html` |	The HTML document containing the game structure. You **are required** to edit this file so that the tests pass. |
-| `src/styles.css` |	The CSS file containing the styling of the game. You **are not required** to edit this file for the tests to pass but you **may want** to make optional changes to the file to customize the appearance of the game.|
-| `src/index.js` | The JS file containing the functionality of the game. You **are required** to edit this file for the tests to pass. |
-| `test/solution.test.js` | This file containing the unit tests of the game. You **are not required** need to edit this file.|
-
+| Folder/file path        | Description                                                                                                                                                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `index.html`            | The HTML document containing the game structure. You **are required** to edit this file so that the tests pass.                                                                                                      |
+| `src/styles.css`        | The CSS file containing the styling of the game. You **are not required** to edit this file for the tests to pass but you **may want** to make optional changes to the file to customize the appearance of the game. |
+| `src/index.js`          | The JS file containing the functionality of the game. You **are required** to edit this file for the tests to pass.                                                                                                  |
+| `test/solution.test.js` | This file containing the unit tests of the game. You **are not required** need to edit this file.                                                                                                                    |
 
 # User Stories
 
-The user stories presented below are short descriptions of the features that the game should have, told from the perspective of the game designer. Your work should meet the functionality as described in the *acceptance criteria* of each user story.
+The user stories presented below are short descriptions of the features that the game should have, told from the perspective of the game designer. Your work should meet the functionality as described in the _acceptance criteria_ of each user story.
 
-Each of the user stories is listed below, the user stories are to be implemented in the order in which they are listed. Find the *TODO* comments in the code and create the necessary functionality. 
+Each of the user stories is listed below, the user stories are to be implemented in the order in which they are listed. Find the _TODO_ comments in the code and create the necessary functionality.
 
 Try to implement the functionality by yourself and check the hints and REPLs are provided for you if you get stuck.
 
@@ -66,8 +65,9 @@ Good luck - you can do this!
 ## US-01: Basic Game Structure
 
 The game needs to have the basic structure for it to function, including:
+
 - a name for the game
-- a start button 
+- a start button
 - a status message
 - four colored pads
 
@@ -75,12 +75,12 @@ The starter code is provided for you; for this user story, you will complete the
 
 ### 1. US-01: Add a title to the game surrounded in `h1` tags in `index.html`
 
-You need to name your game. The default is `Simon Says` but you can choose another name depending on the theme that you want to set for the game.  Surround your title in h1 tags. 
+You need to name your game. The default is `Simon Says` but you can choose another name depending on the theme that you want to set for the game. Surround your title in h1 tags.
 
 Besides naming your game, you will also need to assign a `class` attribute to the `h1` tag and set the `class` attribute's value to a string of `"js-heading"` for the test to pass. It should look something like this:
 
 ```html
-<h1 class="js-heading"> My game!!</h1>
+<h1 class="js-heading">My game!!</h1>
 ```
 
 **Note:** By convention, any HTML class selector that contains the `js-` prefix means that the class will be used to target the element in the JavaScript file. It won't be used in the CSS file.
@@ -90,7 +90,7 @@ Besides naming your game, you will also need to assign a `class` attribute to th
 The game needs a `start` button so that a player can start playing the game. Create a `button` tag and set its class attribute to `"start-button"` and `"js-start-button"` , like this:
 
 ```html
- <button class="start-button js-start-button">start</button>
+<button class="start-button js-start-button">start</button>
 ```
 
 **Note:** `"start-button"` will be used in the CSS file to target the element for styling, whereas `"js-start-button"` will be used in the JavaScript file to target the element for adding event listeners.
@@ -102,13 +102,13 @@ In `src/styles.css`, check out the styles that have already been added for the `
 The `index.html` file only has a single pad defined. The game should have four pads defined. Add the missing pads to the html file.
 
 ```html
-    <section class="pad-container unclickable js-pad-container">
-        <div class="pad pad-red js-pad-red" data-color="red"></div>
-        <!--TODO: Add the missing pads -->
-      </section>
+<section class="pad-container unclickable js-pad-container">
+  <div class="pad pad-red js-pad-red" data-color="red"></div>
+  <!--TODO: Add the missing pads -->
+</section>
 ```
 
-Check out the styles that have already been added for the `".pad-container"`, `".pad"`, `".pad-red"`, `".pad-blue"`, `".pad-green"`, and `".pad-yellow"` classes in `src/styles.css`. 
+Check out the styles that have already been added for the `".pad-container"`, `".pad"`, `".pad-red"`, `".pad-blue"`, `".pad-green"`, and `".pad-yellow"` classes in `src/styles.css`.
 
 You may, but are **not required** to, customize the styling to your liking.
 
@@ -134,7 +134,7 @@ Use `querySelector()` to get the status, heading, and pad container elements.
 
 #### 5. US-01: Create objects containing data for the green, blue, and yellow pads in `index.js`
 
-Since the game has four pads, let's store the data related each pad inside an object for easy access, and collect the pad objects into a `pads` array. You will use this array to access information (i.e., its color, DOM selector, audio file) about each pad later on. 
+Since the game has four pads, let's store the data related each pad inside an object for easy access, and collect the pad objects into a `pads` array. You will use this array to access information (i.e., its color, DOM selector, audio file) about each pad later on.
 
 ```js
 const pads = [
@@ -181,17 +181,18 @@ function setLevel(level = 1) {
 
 ### US-02: Implement `startButtonHandler()`
 
-`startButtonHandler()` which initializes the game by setting the number of rounds needed to win the game, updating the game interface, and calling `playComputerTurn()`, which prompts the computer to begin building a sequence for the game. 
+`startButtonHandler()` which initializes the game by setting the number of rounds needed to win the game, updating the game interface, and calling `playComputerTurn()`, which prompts the computer to begin building a sequence for the game.
 
-Use the pseudocode in `src/index.js` as a guide for your implementation. 
+Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function startButtonHandler() {
-  // TODO: Write your code here.
+  // set number of rounds to win game
+  // update game interface
 }
 ```
 
-**Hint:** In the *JavaScript and the DOM: Selecting elements* lesson you learned about the `classList` method. Take some time to review the [classList MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) before you proceed implementing this function. Previously you used `classList.add()` and `classList.remove()` to add and remove classes to HTML elements.
+**Hint:** In the _JavaScript and the DOM: Selecting elements_ lesson you learned about the `classList` method. Take some time to review the [classList MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) before you proceed implementing this function. Previously you used `classList.add()` and `classList.remove()` to add and remove classes to HTML elements.
 
 ### US-02: Attach `startButtonHandler()` as an event listener on the start button
 
@@ -206,7 +207,7 @@ padContainer.addEventListener("click", padHandler);
 // TODO: Add an event listener `startButtonHandler()` to startButton.
 ```
 
-**Hint:**  If you don't remember event handlers, please go and review the "Event Listeners" lesson from the "JavaScript and the DOM" module.
+**Hint:** If you don't remember event handlers, please go and review the "Event Listeners" lesson from the "JavaScript and the DOM" module.
 
 ### US-02: Acceptance criteria
 
@@ -222,7 +223,7 @@ In this user story, you will implement the game flow so that the computer can pl
 
 ### US-03: Implement `getRandomItem(collection)`
 
-`getRandomItem(collection)` returns a randomly selected item from a given array. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`getRandomItem(collection)` returns a randomly selected item from a given array. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 **Note:** This function is already implemented for you. You only need to uncomment the code inside the function.
 
@@ -236,7 +237,7 @@ function getRandomItem(collection) {
 
 ### US-03: Implement `setText(element, text)`
 
-`setText(element, text)` sets the text content of a given HTML `element` with a given `text`. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`setText(element, text)` sets the text content of a given HTML `element` with a given `text`. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function setText(element, text) {
@@ -248,7 +249,7 @@ function setText(element, text) {
 
 ### US-03: Implement `activatePad(color)`
 
-`activatePad(color)` activates a pad of a given color by playing its sound and lighting it up. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`activatePad(color)` activates a pad of a given color by playing its sound and lighting it up. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function activatePad(color) {
@@ -260,7 +261,7 @@ function activatePad(color) {
 
 ### US-03: Implement `activatePads(sequence)`
 
-`activatePads(sequence)` activates a sequence of colors, which are passed as an array to the function. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`activatePads(sequence)` activates a sequence of colors, which are passed as an array to the function. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function activatePads(sequence) {
@@ -290,11 +291,11 @@ function playComputerTurn() {
 
 ## US-04: Play player's turn
 
-The computer can now create and display a random sequence of pads that the player must attempt to memorize. In this user story, you will implement the game flow so that the player can play their turn after the computer has completed its turn. 
+The computer can now create and display a random sequence of pads that the player must attempt to memorize. In this user story, you will implement the game flow so that the player can play their turn after the computer has completed its turn.
 
 ### US-04: Implement `playHumanTurn()`
 
-`playHumanTurn()` allows the player to play their turn, which includes allowing each pad to be clickable. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`playHumanTurn()` allows the player to play their turn, which includes allowing each pad to be clickable. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function playHumanTurn() {
@@ -304,7 +305,7 @@ function playHumanTurn() {
 
 ### US-04: Implement `padHandler(event)`
 
-`padHandler()` is called when the player presses one of the colored pads. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`padHandler()` is called when the player presses one of the colored pads. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function padHandler(event) {
@@ -315,10 +316,9 @@ function padHandler(event) {
 }
 ```
 
-
 ### US-04: Implement `checkPress(color)`
 
-`checkPress()` checks the player's selection every time the player presses on a pad during the player's turn. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`checkPress()` checks the player's selection every time the player presses on a pad during the player's turn. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function checkPress(color) {
@@ -328,7 +328,7 @@ function checkPress(color) {
 
 ### US-04: Implement `checkRound()`
 
-`checkRound()` checks each round to see if the player has completed all the rounds of the game or advance to the next round if the game has not finished. Use the pseudocode in `src/index.js` as a guide for your implementation. 
+`checkRound()` checks each round to see if the player has completed all the rounds of the game or advance to the next round if the game has not finished. Use the pseudocode in `src/index.js` as a guide for your implementation.
 
 ```js
 function checkRound() {
@@ -337,7 +337,7 @@ function checkRound() {
 ```
 
 ### US-04: Acceptance criteria
- 
+
 1. `playHumanTurn()` works as expected, as specified in the pseudocode.
 2. `padHandler(event)` works as expected, as specified in the pseudocode.
 3. `checkPress(color)` works as expected, as specified in the pseudocode.
@@ -345,7 +345,7 @@ function checkRound() {
 
 ## US-05: Reset game
 
-Now that the computer and the player can complete their respective turns, it's time to allow the game to be reset so that the player can play the game again. 
+Now that the computer and the player can complete their respective turns, it's time to allow the game to be reset so that the player can play the game again.
 
 In this user story, you will implement the game flow so that the player can reset the game either if the player makes a mistake or successfully completes all the rounds of the game, so the game can be played again.
 
@@ -358,7 +358,6 @@ Use the pseudocode in `src/index.js` as a guide for your implementation. Part of
 ```js
 function resetGame(text) {
   // TODO: Write your code here.
-
   // Uncomment the code below:
   // alert(text);
   // setText(heading, "Simon Says");
@@ -374,30 +373,35 @@ function resetGame(text) {
 
 ## US-06: Originality
 
-Good job in making it this far! 
+Good job in making it this far!
 
 You have a functional game and it's time to add some uniqueness and originality to make it your own. Read the following suggestions and implement whatever you want. There are no unit tests for this user story but originality will be considered in the rubric.
 
 #### 1. Change the look of the game.
+
 The game looks great but it looks similar to other students' games. Edit the `src/styles.css` file and make changes to make your game look unique. Suggestions include, but are not limited to, changing:
+
 - the colors and shapes of the buttons (when dormant or active),
 - the background image,
 - the fonts, and
 - the layout of the game
 
 #### 2. Audio effects and Music
+
 Customize the game with your favorite sound effects. Here is a [REPL](https://replit.com/@thinkful/audiofx-and-music#script.js) with an example on how to add audio to your game. Feel free to use your own audio files.
 
 For example, you can play victory music if the player successfully completes all the rounds of the game or a different kind of music if player makes a mistake.
 
 #### 3. Additional features
-You can add additional features to your game like 
+
+You can add additional features to your game like
+
 - adding more user controls (e.g., dropdown menu) to allow the player to select the skill level or difficulty of the game, as follows:
-   - Skill level 1: 8 sequences
-   - Skill level 2: 14 sequences
-   - Skill level 3: 20 sequences
-   - Skill level 4: 31 sequences
-- adding dual player mode, 
+  - Skill level 1: 8 sequences
+  - Skill level 2: 14 sequences
+  - Skill level 3: 20 sequences
+  - Skill level 4: 31 sequences
+- adding dual player mode,
 - adding additional animations, etc.
 
 #### US-06: Acceptance criteria
@@ -406,7 +410,7 @@ You can add additional features to your game like
 
 ## US-07: Deploying to Github
 
-You made it! You finished the first version of your game and now it's time to show it to your team and the game designer. Follow the instructions in the *Create your first Github repo* lesson and deploy your game so that it becomes part of your portfolio.
+You made it! You finished the first version of your game and now it's time to show it to your team and the game designer. Follow the instructions in the _Create your first Github repo_ lesson and deploy your game so that it becomes part of your portfolio.
 
 #### US-07: Acceptance criteria
 
@@ -415,14 +419,16 @@ You made it! You finished the first version of your game and now it's time to sh
 # Success Criteria
 
 Functionality:
+
 - The game starts when a player clicks the `start` button.
 - The computer selects the pads randomly.
-- The player can select a pad when it's their turn. 
+- The player can select a pad when it's their turn.
 - The game ends/resets when a player makes a mistake or successfully completes all the rounds of the level.
 - The game is deployed to Github.
 - The game presents some aspects of originality and creativity as specified in US-06.
 
 General Code Organization:
+
 - Minimal code duplication
 - Comments are used to describe the functions.
 
